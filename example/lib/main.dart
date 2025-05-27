@@ -40,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   List<TabItem> tabItems = List.of([
     TabItem(
-      Icons.home,
+      Icon(Icons.home),
       "Home",
       Colors.blue,
       labelStyle: TextStyle(
@@ -48,7 +48,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     ),
     TabItem(
-      Icons.search,
+  Icon(Icons.search),
       "Search",
       Colors.orange,
       labelStyle: TextStyle(
@@ -57,13 +57,13 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     ),
     TabItem(
-      Icons.layers,
+  Icon(Icons.layers),
       "Reports",
       Colors.red,
       circleStrokeColor: Colors.black,
     ),
     TabItem(
-      Icons.notifications,
+  Icon(Icons.notifications),
       "Notifications",
       Colors.cyan,
     ),
