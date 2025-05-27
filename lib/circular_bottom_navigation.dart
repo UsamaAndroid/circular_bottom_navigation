@@ -250,7 +250,7 @@ class _CircularBottomNavigationState extends State<CircularBottomNavigation>
       double scaleFactor = pos == selectedPos ? 1.2 : 1.0;
       children.add(
         Positioned(
-          child: Transform.scale(
+          child: pos != selectedPos ? widget.tabItems[pos].icon : Transform.scale(
             scale: scaleFactor,
             child:
               widget.tabItems[pos].icon,
